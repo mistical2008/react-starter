@@ -1,8 +1,8 @@
 import { lazy } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import { LayoutMain } from 'widgets'
-
 import { withPageLoading } from './lib/providers/with-page-loading'
+
 const HomePage = lazy(() => import('pages/home'))
 
 function Routing() {
